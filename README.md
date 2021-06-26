@@ -260,7 +260,7 @@ appledaily-articles-json
 - 總文件數：2,091,884
 - SHA256: `b0da2c34944dc196f88753828b8e491121cdf318e8e420a8cea2441607640e43`
 - 內容：純文字的plain HTML。由文件數推算，最齊應該係佢。
-- Sample data: [samples/samples/plain.html](samples/samples/plain.html)
+- Sample data: [samples/plain.html](samples/plain.html)
 - 資料夾目錄示例 `data/日期/ID/index.html`
 ```
 apple-articles-plaintext-20020101-20210620/data/20200101
