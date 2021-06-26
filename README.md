@@ -19,6 +19,7 @@
     - [點解唔用Dropbox/Google Drive/One Drive](#點解唔用dropboxgoogle-driveone-drive)
     - [點解唔用IPFS](#點解唔用ipfs)
 - [寫在最後](#寫在最後)
+- [其他資源](#其他資源)
 
 ## 引言
 
@@ -322,3 +323,11 @@ IPFS係一個比較新既P2P protocal，詳細特點我唔介紹啦。佢主要�
 我有時會問自己自由係乜野？自由唔係淨係得我講無你講，得一種聲音。就算藍絲五毛拎住以前份蘋果出黎笑佢做過/講過既野都好，都係自由既表現，我唔同意但會尊重。蘋果被香港政府暴力迫死正正係香港再無新聞自由既分水領，而加有人想拎的舊聞出黎抽水都唔可能了。唇亡齒寒，今日蘋果，聽日就會係其他人。
 
 有高人教過我一句面對困境和逆境既心法，就係「戰略上樂觀，戰術上悲觀」。姐係話，你既**唔可以**係純粹的樂觀主義者，亦**唔可以**係純粹的悲觀主義者。個八個唔講得既字唔係一朝一日可以成功，成功之前一定會有好多次失敗；但同一時間無一個朝代/君主可以千秋萬世。能成大事者，往往是個的歷經重大挫折而依然鬥志昂揚既人。
+
+## 其他資源
+
+- 此repo鏡像備份 [https://gitlab.com/appledailybackup/appledaily-archive-directory](https://gitlab.com/appledailybackup/appledaily-archive-directory)
+- [https://wiki.archiveteam.org/index.php/Apple_Daily](https://wiki.archiveteam.org/index.php/Apple_Daily)
+- [https://web.archive.org/web/20200601000000*/hk.appledaily.com](https://web.archive.org/web/20200601000000*/hk.appledaily.com)
+- [https://ipfs.io/ipfs/QmX1WxnXhD5zyGch5rnJhCDS7P51CLt9YGSH5kFpzkL46T/](https://ipfs.io/ipfs/QmX1WxnXhD5zyGch5rnJhCDS7P51CLt9YGSH5kFpzkL46T/)
+- [https://ipfs.io/ipfs/Qmdig4NtBTbUiw9KRri83Warmrp4f5PFFFZMoQUwqXuNbZ/](https://ipfs.io/ipfs/Qmdig4NtBTbUiw9KRri83Warmrp4f5PFFFZMoQUwqXuNbZ/)
