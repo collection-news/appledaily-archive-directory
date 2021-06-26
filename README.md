@@ -20,6 +20,7 @@
     - [點解唔用IPFS](#點解唔用ipfs)
 - [寫在最後](#寫在最後)
 - [其他資源](#其他資源)
+  - [YouTube](#youtube)
 
 ## 引言
 
@@ -104,31 +105,36 @@
 - SHA256: `864a248a906cd130bc9204b75153464b42d1b285ca7606045b57d52b421bd4c3`
 - 內容：由 https://appledaily-hk-appledaily-prod.cdn.arcpublishing.com/feeds/articleDetail 抽取既article details JSON data
 - Sample data: [samples/article_detail.json](samples/article_detail.json)
-- 資料夾目錄示例 `版塊/日期/ID`
-```
-appledaily-article-json-backup-partial
-├── ETW
-│   ├── 20111202
-│   │   └── WPFLRR6V3NPPALU5UQOW4T2FZE
-│   ├── 20120915
-│   │   └── NH7BXK2YNEMIRN65EH2EWVTF3Q
-│   ├── 20130615
-│   │   └── ZIM7NMC3F426CNGPSIZVTC4NPE
-│   ├── 20130926
-│   │   └── B3X327QEDF2S465JEAJYCIKJHI
-│   ├── 20131130
-│   │   └── 5J2JMMLX42QNKH7RVZLHVNWR2M
-│   ├── 20131224
-│   │   └── DA5GAATGMOEOPNQ74NIMP367EA
-│   ├── 20140211
-│   │   ├── EGZQELJOVBIWOSRYICKEZZPIH4
-│   │   ├── EM2NJG7HSR4ZLWZTP6TGW34SPU
-│   │   └── WN54J5J3OE2ZDK6TZNWHX7QGKE
-│   ├── 20140401
-│   │   └── L465SA5GVWMGPE5HMHBGUIM3GQ
-│   ├── 20140423
-│   │   └── GVU4D42L7UOLRYEVSMF2GXZHWA
-```
+
+<details>
+  <summary>資料夾目錄示例</summary>
+
+  ```
+  版塊/日期/ID
+  appledaily-article-json-backup-partial
+  ├── ETW
+  │   ├── 20111202
+  │   │   └── WPFLRR6V3NPPALU5UQOW4T2FZE
+  │   ├── 20120915
+  │   │   └── NH7BXK2YNEMIRN65EH2EWVTF3Q
+  │   ├── 20130615
+  │   │   └── ZIM7NMC3F426CNGPSIZVTC4NPE
+  │   ├── 20130926
+  │   │   └── B3X327QEDF2S465JEAJYCIKJHI
+  │   ├── 20131130
+  │   │   └── 5J2JMMLX42QNKH7RVZLHVNWR2M
+  │   ├── 20131224
+  │   │   └── DA5GAATGMOEOPNQ74NIMP367EA
+  │   ├── 20140211
+  │   │   ├── EGZQELJOVBIWOSRYICKEZZPIH4
+  │   │   ├── EM2NJG7HSR4ZLWZTP6TGW34SPU
+  │   │   └── WN54J5J3OE2ZDK6TZNWHX7QGKE
+  │   ├── 20140401
+  │   │   └── L465SA5GVWMGPE5HMHBGUIM3GQ
+  │   ├── 20140423
+  │   │   └── GVU4D42L7UOLRYEVSMF2GXZHWA
+  ```
+</details>
 
 ### `appledaily-html-backup-partial.zip`
 - 壓縮大小：307M
@@ -137,31 +143,36 @@ appledaily-article-json-backup-partial
 - SHA256: `dc08960ff5b0d7316e4443d55bd0c0ccca35cf239c9184512f8b04307ac7af6a`
 - 內容：直接由網站抽取內文既HTML，無左頭頭尾尾佔少的位
 - Sample data: [samples/article_body.html](samples/article_body.html)
-- 資料夾目錄示例 `版塊/日期/ID/{header/body}`
-```
-appledaily-html-backup-partial
-├── ETW
-│   ├── 20190912
-│   │   └── HIM4GYXUBLXKTRYVFXAV3TV2XA
-│   │       ├── body
-│   │       └── header
-│   ├── 20191111
-│   │   └── IGCVLE4LU6UP7BNVPRSYHUGZT4
-│   │       ├── body
-│   │       └── header
-│   ├── 20191211
-│   │   └── 3NML74DL36TDL5HTAGMN2Z6DV4
-│   │       ├── body
-│   │       └── header
-│   ├── 20191212
-│   │   └── YAJAUJSUHXAOSJNCW5AAUITGAE
-│   │       ├── body
-│   │       └── header
-│   ├── 20191217
-│   │   └── YRW7H7OSKURUWDC3K5UZY3M3EE
-│   │       ├── body
-│   │       └── header
-```
+
+<details>
+  <summary>資料夾目錄示例</summary>
+
+  ```
+  版塊/日期/ID/{header/body}
+  appledaily-html-backup-partial
+  ├── ETW
+  │   ├── 20190912
+  │   │   └── HIM4GYXUBLXKTRYVFXAV3TV2XA
+  │   │       ├── body
+  │   │       └── header
+  │   ├── 20191111
+  │   │   └── IGCVLE4LU6UP7BNVPRSYHUGZT4
+  │   │       ├── body
+  │   │       └── header
+  │   ├── 20191211
+  │   │   └── 3NML74DL36TDL5HTAGMN2Z6DV4
+  │   │       ├── body
+  │   │       └── header
+  │   ├── 20191212
+  │   │   └── YAJAUJSUHXAOSJNCW5AAUITGAE
+  │   │       ├── body
+  │   │       └── header
+  │   ├── 20191217
+  │   │   └── YRW7H7OSKURUWDC3K5UZY3M3EE
+  │   │       ├── body
+  │   │       └── header
+  ```
+</details>
 
 ### `appledaily-html-plaintext-full.tar.bz2`
 - 壓縮大小：3.9G
@@ -170,32 +181,37 @@ appledaily-html-backup-partial
 - SHA256: `1fa18e388a106b3d776f5f2725505111ced149a377938247752a597b88ca0b1b`
 - 內容：完整HTML
 - Sample data: [samples/article_full.html](samples/article_full.html)
-- 資料夾目錄示例 `版塊/日期/ID/index.html`
-```
-appledaily-html-plaintext-full
-├── ETW
-│   ├── 20170204
-│   │   └── VRM6DRVV5QFISCKPAWEVF4VZPQ
-│   │       └── index.html
-│   ├── 20180718
-│   │   └── LS2YDBSIWBOOL3Q72GET64KMHA
-│   │       └── index.html
-│   ├── 20181108
-│   │   └── YPFI3FXFHRDNOFEAWXQL57T2DY
-│   │       └── index.html
-│   ├── 20190126
-│   │   └── QI2OW5J4PWZR24UKCPUIT6JPXU
-│   │       └── index.html
-│   ├── 20190428
-│   │   └── KIDT3JNJJ6XULPOWVQ3UC74K44
-│   │       └── index.html
-│   ├── 20190513
-│   │   └── VNPMSZFAEIQ7N22Q4Q6HI4G6V4
-│   │       └── index.html
-│   ├── 20190620
-│   │   └── DUMBFNOUWV5RQ3SNSE6DMQ5XJY
-│   │       └── index.html
-```
+
+<details>
+  <summary>資料夾目錄示例</summary>
+
+  ```
+  版塊/日期/ID/index.html
+  appledaily-html-plaintext-full
+  ├── ETW
+  │   ├── 20170204
+  │   │   └── VRM6DRVV5QFISCKPAWEVF4VZPQ
+  │   │       └── index.html
+  │   ├── 20180718
+  │   │   └── LS2YDBSIWBOOL3Q72GET64KMHA
+  │   │       └── index.html
+  │   ├── 20181108
+  │   │   └── YPFI3FXFHRDNOFEAWXQL57T2DY
+  │   │       └── index.html
+  │   ├── 20190126
+  │   │   └── QI2OW5J4PWZR24UKCPUIT6JPXU
+  │   │       └── index.html
+  │   ├── 20190428
+  │   │   └── KIDT3JNJJ6XULPOWVQ3UC74K44
+  │   │       └── index.html
+  │   ├── 20190513
+  │   │   └── VNPMSZFAEIQ7N22Q4Q6HI4G6V4
+  │   │       └── index.html
+  │   ├── 20190620
+  │   │   └── DUMBFNOUWV5RQ3SNSE6DMQ5XJY
+  │   │       └── index.html
+  ```
+</details>
 
 ### `appledaily-images.zip`
 - 壓縮大小：4.3G
@@ -203,27 +219,31 @@ appledaily-html-plaintext-full
 - 總文件數：22,145
 - SHA256: `6486e193e4b621993bccb08e39f91574ac74ac1ec0fd8a2ee4ebfe059caa924e`
 - 內容：部份圖片，多謝巴打提供
-- 資料夾目錄示例 `版塊/日期/ID/index.html`
-```
-appledaily-images
-├── cloudfront-ap-northeast-1.images.arcpublishing.com
-│   └── appledaily
-│       ├── 226C7XZ2W26PB223B7BBW4LNRM.jpg
-│       ├── 22CCPCN7EPVOPCZ4Z7ELFI3PGA.jpg
-│       ├── 22DNAUFP6BBO27NHS2P3RJFTJU.jpg
-│       ├── 22FTY7SG6UX7FPEHAOJHGGV2UM.jpg
-│       ├── 22GATONINIFL2LZFVPVLG6OWBQ.jpg
-│       ├── 22GDABZZGB5YVD3LADSRIJ6K5E.jpg
-│       ├── 22IJTJHGHV5SMR7Q6UKQE43H3M.jpg
-│       ├── 22JJBKF5CONQYLZMEQJ327IP2M.jpg
-│       ├── 22KQ34EBEUBSKNEGPBQOTLLHEY.jpg
-│       ├── 22PT73ZCL6R75IFGQGJTAVTIXY.jpg
-│       ├── 22W73VZVQ6ZH4ZF2JUDPX25TRE.jpg
-│       ├── 22XH77C5576YC37VFBPY4KB5VM.jpg
-│       ├── 22Y2NLJXVNJVCCULTCFO4DFVFE.jpg
-│       ├── 22ZGEVEFUAMYPK5BGOSQEKQNI4.jpg
-│       ├── 233OTGPBBDBOEGR7YTVCL6VVEM.jpg
-```
+
+<details>
+  <summary>資料夾目錄示例</summary>
+
+  ```
+  appledaily-images
+  ├── cloudfront-ap-northeast-1.images.arcpublishing.com
+  │   └── appledaily
+  │       ├── 226C7XZ2W26PB223B7BBW4LNRM.jpg
+  │       ├── 22CCPCN7EPVOPCZ4Z7ELFI3PGA.jpg
+  │       ├── 22DNAUFP6BBO27NHS2P3RJFTJU.jpg
+  │       ├── 22FTY7SG6UX7FPEHAOJHGGV2UM.jpg
+  │       ├── 22GATONINIFL2LZFVPVLG6OWBQ.jpg
+  │       ├── 22GDABZZGB5YVD3LADSRIJ6K5E.jpg
+  │       ├── 22IJTJHGHV5SMR7Q6UKQE43H3M.jpg
+  │       ├── 22JJBKF5CONQYLZMEQJ327IP2M.jpg
+  │       ├── 22KQ34EBEUBSKNEGPBQOTLLHEY.jpg
+  │       ├── 22PT73ZCL6R75IFGQGJTAVTIXY.jpg
+  │       ├── 22W73VZVQ6ZH4ZF2JUDPX25TRE.jpg
+  │       ├── 22XH77C5576YC37VFBPY4KB5VM.jpg
+  │       ├── 22Y2NLJXVNJVCCULTCFO4DFVFE.jpg
+  │       ├── 22ZGEVEFUAMYPK5BGOSQEKQNI4.jpg
+  │       ├── 233OTGPBBDBOEGR7YTVCL6VVEM.jpg
+  ```
+</details>
 
 ### `appledaily-articles-json.zip`
 - 壓縮大小：2.0G
@@ -232,27 +252,32 @@ appledaily-images
 - SHA256: `e202237f0592adec3c184174d291ad41a72e530d111d2d6137e888407b8889c6`
 - 內容：另一個渠道download到既另一份JSON data，多謝巴打提供
 - Sample data: [samples/content.json](samples/content.json)
-- 資料夾目錄示例 `版塊/日期/ID.json`
-```
-appledaily-articles-json
-├── ETW
-│   ├── 20170204
-│   │   └── VRM6DRVV5QFISCKPAWEVF4VZPQ.json
-│   ├── 20170610
-│   │   ├── 2ISGW7J2UZKJGJZRYF3PDJGAYQ.json
-│   │   ├── 444MG2JG5FXDB54RBUS724WR6A.json
-│   │   ├── EP7B3VDDCDN2MF2RIXBFM6PWBA.json
-│   │   ├── HRKJSBTJ24YAVG6YXX6ENHY4EI.json
-│   │   ├── I25XHDF52454EZVVZ55GJMOO7Y.json
-│   │   ├── M66J4Q67QJ3SYTF6IBVDNS7CHE.json
-│   │   ├── N2ONCTA2QB4BMKDN6ST7RNM5HU.json
-│   │   ├── N4KFENFKYTVLYYKYRALZONUSTA.json
-│   │   ├── PO6HIL5B5YUDRSITSOY34RX4M4.json
-│   │   ├── U6Y7DXS662SHP4U2JR4XU3KHIM.json
-│   │   ├── W4YL5DNHZZI2PLM5FFH5RZEEWA.json
-│   │   ├── YI6OW3RNZC2MMSNCIHPQAFBXOM.json
-│   │   └── YLDS3NE66CVC5PPIM6UJWMA2BI.json
-```
+
+<details>
+  <summary>資料夾目錄示例</summary>
+
+  ```
+  版塊/日期/ID.json
+  appledaily-articles-json
+  ├── ETW
+  │   ├── 20170204
+  │   │   └── VRM6DRVV5QFISCKPAWEVF4VZPQ.json
+  │   ├── 20170610
+  │   │   ├── 2ISGW7J2UZKJGJZRYF3PDJGAYQ.json
+  │   │   ├── 444MG2JG5FXDB54RBUS724WR6A.json
+  │   │   ├── EP7B3VDDCDN2MF2RIXBFM6PWBA.json
+  │   │   ├── HRKJSBTJ24YAVG6YXX6ENHY4EI.json
+  │   │   ├── I25XHDF52454EZVVZ55GJMOO7Y.json
+  │   │   ├── M66J4Q67QJ3SYTF6IBVDNS7CHE.json
+  │   │   ├── N2ONCTA2QB4BMKDN6ST7RNM5HU.json
+  │   │   ├── N4KFENFKYTVLYYKYRALZONUSTA.json
+  │   │   ├── PO6HIL5B5YUDRSITSOY34RX4M4.json
+  │   │   ├── U6Y7DXS662SHP4U2JR4XU3KHIM.json
+  │   │   ├── W4YL5DNHZZI2PLM5FFH5RZEEWA.json
+  │   │   ├── YI6OW3RNZC2MMSNCIHPQAFBXOM.json
+  │   │   └── YLDS3NE66CVC5PPIM6UJWMA2BI.json
+  ```
+</details>
 
 ### `apple-articles-plaintext-20020101-20210620.zip`
 - 壓縮大小：2.9G
@@ -261,24 +286,29 @@ appledaily-articles-json
 - SHA256: `b0da2c34944dc196f88753828b8e491121cdf318e8e420a8cea2441607640e43`
 - 內容：純文字的plain HTML。由文件數推算，最齊應該係佢。
 - Sample data: [samples/plain.html](samples/plain.html)
-- 資料夾目錄示例 `data/日期/ID/index.html`
-```
-apple-articles-plaintext-20020101-20210620/data/20200101
-├── data
-|   ├── 20200101
-|   |   ├── 2IBXV4T3RNAPAU3L2ZQG55Z4KA
-|   |   │   └── index.html
-|   |   ├── 2MQGHNH6LTNB3C7AOHFXAU246E
-|   |   │   └── index.html
-|   |   ├── 2Z7HUE6MVMSHLN3Z746IURHLTM
-|   |   │   └── index.html
-|   |   ├── 35RCHVE2LL3LV7IO5KXMBKHQM4
-|   |   │   └── index.html
-|   |   ├── 3KQSXUC5P2Y3GUWC76RW3HW2VY
-|   |   │   └── index.html
-|   |   ├── 3SGNTAMBO4G4ZC22W6IKBLXDFM
-|   |   │   └── index.html
-```
+
+<details>
+  <summary>資料夾目錄示例</summary>
+
+  ```
+  data/日期/ID/index.html
+  apple-articles-plaintext-20020101-20210620/data/20200101
+  ├── data
+  |   ├── 20200101
+  |   |   ├── 2IBXV4T3RNAPAU3L2ZQG55Z4KA
+  |   |   │   └── index.html
+  |   |   ├── 2MQGHNH6LTNB3C7AOHFXAU246E
+  |   |   │   └── index.html
+  |   |   ├── 2Z7HUE6MVMSHLN3Z746IURHLTM
+  |   |   │   └── index.html
+  |   |   ├── 35RCHVE2LL3LV7IO5KXMBKHQM4
+  |   |   │   └── index.html
+  |   |   ├── 3KQSXUC5P2Y3GUWC76RW3HW2VY
+  |   |   │   └── index.html
+  |   |   ├── 3SGNTAMBO4G4ZC22W6IKBLXDFM
+  |   |   │   └── index.html
+  ```
+</details>
 
 
 ### `appledaily-backup-metadata.zip`
@@ -326,10 +356,30 @@ IPFS係一個比較新既P2P protocal，詳細特點我唔介紹啦。佢主要�
 
 ## 其他資源
 
-- 此repo鏡像備份 [https://gitlab.com/appledailybackup/appledaily-archive-directory](https://gitlab.com/appledailybackup/appledaily-archive-directory)
+- 此repo鏡像備份 - https://gitlab.com/appledailybackup/appledaily-archive-directory
 - [https://wiki.archiveteam.org/index.php/Apple_Daily](https://wiki.archiveteam.org/index.php/Apple_Daily)
 - [https://web.archive.org/web/20200601000000*/hk.appledaily.com](https://web.archive.org/web/20200601000000*/hk.appledaily.com)
 - [https://ipfs.io/ipfs/QmX1WxnXhD5zyGch5rnJhCDS7P51CLt9YGSH5kFpzkL46T/](https://ipfs.io/ipfs/QmX1WxnXhD5zyGch5rnJhCDS7P51CLt9YGSH5kFpzkL46T/)
 - [https://ipfs.io/ipfs/Qmdig4NtBTbUiw9KRri83Warmrp4f5PFFFZMoQUwqXuNbZ/](https://ipfs.io/ipfs/Qmdig4NtBTbUiw9KRri83Warmrp4f5PFFFZMoQUwqXuNbZ/)
 - [https://github.com/PreserveHK](https://github.com/PreserveHK)
 -  https://html-raw-2002.appledaily.phk.quest/ - https://html-raw-2021.appledaily.phk.quest/
+
+### YouTube
+
+- 動物蘋台 - https://www.youtube.com/channel/UCAAqy04CPHzEI-t6U9BUKQg
+- 蘋果新聞 飲食男女 - https://www.youtube.com/channel/UCbTBrsPb8DYg0jjknPCx4PQ
+- 果籽 - https://www.youtube.com/channel/UCEwE1ysWbmZ2ndPfRMrkr7g
+- 果籽 - https://www.youtube.com/channel/UCggQ1YiKg3eekU1C1G1Pz4Q
+- 果籽 - https://www.youtube.com/channel/UCJioN0-5Yemik0JTgUF1b-Q
+- 蘋果新聞 - https://www.youtube.com/channel/UCnnQIKoPW2akVAsNUP9_Q1Q
+- 果籽 - https://www.youtube.com/channel/UCS4vkCko4WDa3Y9DWovf7mg
+- 果籽 - https://www.youtube.com/channel/UCVMqQP7o5JVViEVPKdOTcBA
+- 蘋果新聞 果籽 飲食男女 - https://www.youtube.com/channel/UCWuykjg416FF3kWoGhZ3BUw
+- 蘋果新聞 果籽 - https://www.youtube.com/channel/UCxaD1F88oS5vMe8wJcAS5Wg
+- 果籽 - https://www.youtube.com/playlist?list=PLMHInmp-ZMmAcBbA9nV82SSmgps4rFfh8
+- 果籽 動物蘋台 - https://www.youtube.com/playlist?list=PLrkC6k-OK7aqs6FAboBZoGuT3deY5mt5d
+- 果籽 - https://www.youtube.com/user/cckjcckj
+- 果籽 - https://www.youtube.com/user/hkgvideo2
+- 果籽 - https://www.youtube.com/user/pasuluk0202
+- 蘋果新聞 果籽 飲食男女 - https://www.youtube.com/channel/UCOytKjYOoU_Z6JrvoepdigQ
+- 蘋果動新聞 - https://odysee.com/@HKAppleDaily:7
