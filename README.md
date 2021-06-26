@@ -108,6 +108,7 @@
 
 <details>
   <summary>資料夾目錄示例</summary>
+
   ```
   版塊/日期/ID
   appledaily-article-json-backup-partial
@@ -145,6 +146,7 @@
 
 <details>
   <summary>資料夾目錄示例</summary>
+
   ```
   版塊/日期/ID/{header/body}
   appledaily-html-backup-partial
@@ -182,6 +184,7 @@
 
 <details>
   <summary>資料夾目錄示例</summary>
+
   ```
   版塊/日期/ID/index.html
   appledaily-html-plaintext-full
@@ -219,6 +222,7 @@
 
 <details>
   <summary>資料夾目錄示例</summary>
+
   ```
   appledaily-images
   ├── cloudfront-ap-northeast-1.images.arcpublishing.com
@@ -251,6 +255,7 @@
 
 <details>
   <summary>資料夾目錄示例</summary>
+
   ```
   版塊/日期/ID.json
   appledaily-articles-json
@@ -284,6 +289,7 @@
 
 <details>
   <summary>資料夾目錄示例</summary>
+
   ```
   data/日期/ID/index.html
   apple-articles-plaintext-20020101-20210620/data/20200101
