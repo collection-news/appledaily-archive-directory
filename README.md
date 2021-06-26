@@ -104,31 +104,35 @@
 - SHA256: `864a248a906cd130bc9204b75153464b42d1b285ca7606045b57d52b421bd4c3`
 - 內容：由 https://appledaily-hk-appledaily-prod.cdn.arcpublishing.com/feeds/articleDetail 抽取既article details JSON data
 - Sample data: [samples/article_detail.json](samples/article_detail.json)
-- 資料夾目錄示例 `版塊/日期/ID`
-```
-appledaily-article-json-backup-partial
-├── ETW
-│   ├── 20111202
-│   │   └── WPFLRR6V3NPPALU5UQOW4T2FZE
-│   ├── 20120915
-│   │   └── NH7BXK2YNEMIRN65EH2EWVTF3Q
-│   ├── 20130615
-│   │   └── ZIM7NMC3F426CNGPSIZVTC4NPE
-│   ├── 20130926
-│   │   └── B3X327QEDF2S465JEAJYCIKJHI
-│   ├── 20131130
-│   │   └── 5J2JMMLX42QNKH7RVZLHVNWR2M
-│   ├── 20131224
-│   │   └── DA5GAATGMOEOPNQ74NIMP367EA
-│   ├── 20140211
-│   │   ├── EGZQELJOVBIWOSRYICKEZZPIH4
-│   │   ├── EM2NJG7HSR4ZLWZTP6TGW34SPU
-│   │   └── WN54J5J3OE2ZDK6TZNWHX7QGKE
-│   ├── 20140401
-│   │   └── L465SA5GVWMGPE5HMHBGUIM3GQ
-│   ├── 20140423
-│   │   └── GVU4D42L7UOLRYEVSMF2GXZHWA
-```
+
+<details>
+  <summary>資料夾目錄示例 `版塊/日期/ID`</summary>
+  
+  ```
+  appledaily-article-json-backup-partial
+  ├── ETW
+  │   ├── 20111202
+  │   │   └── WPFLRR6V3NPPALU5UQOW4T2FZE
+  │   ├── 20120915
+  │   │   └── NH7BXK2YNEMIRN65EH2EWVTF3Q
+  │   ├── 20130615
+  │   │   └── ZIM7NMC3F426CNGPSIZVTC4NPE
+  │   ├── 20130926
+  │   │   └── B3X327QEDF2S465JEAJYCIKJHI
+  │   ├── 20131130
+  │   │   └── 5J2JMMLX42QNKH7RVZLHVNWR2M
+  │   ├── 20131224
+  │   │   └── DA5GAATGMOEOPNQ74NIMP367EA
+  │   ├── 20140211
+  │   │   ├── EGZQELJOVBIWOSRYICKEZZPIH4
+  │   │   ├── EM2NJG7HSR4ZLWZTP6TGW34SPU
+  │   │   └── WN54J5J3OE2ZDK6TZNWHX7QGKE
+  │   ├── 20140401
+  │   │   └── L465SA5GVWMGPE5HMHBGUIM3GQ
+  │   ├── 20140423
+  │   │   └── GVU4D42L7UOLRYEVSMF2GXZHWA
+  ```
+</details>
 
 ### `appledaily-html-backup-partial.zip`
 - 壓縮大小：307M
