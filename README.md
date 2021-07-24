@@ -361,8 +361,8 @@ IPFS係一個比較新既P2P protocal，詳細特點我唔介紹啦。佢主要�
 - [https://web.archive.org/web/20200601000000*/hk.appledaily.com](https://web.archive.org/web/20200601000000*/hk.appledaily.com)
 - [https://ipfs.io/ipfs/QmX1WxnXhD5zyGch5rnJhCDS7P51CLt9YGSH5kFpzkL46T/](https://ipfs.io/ipfs/QmX1WxnXhD5zyGch5rnJhCDS7P51CLt9YGSH5kFpzkL46T/)
 - [https://ipfs.io/ipfs/Qmdig4NtBTbUiw9KRri83Warmrp4f5PFFFZMoQUwqXuNbZ/](https://ipfs.io/ipfs/Qmdig4NtBTbUiw9KRri83Warmrp4f5PFFFZMoQUwqXuNbZ/)
-- [https://github.com/PreserveHK](https://github.com/PreserveHK)
--  https://html-raw-2002.appledaily.phk.quest/ - https://html-raw-2021.appledaily.phk.quest/
+- [https://github.com/hk-archive](https://github.com/HK-Archive)
+- https://appledaily.phk.news
 
 ### YouTube
 
