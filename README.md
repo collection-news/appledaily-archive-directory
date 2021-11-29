@@ -315,7 +315,14 @@
 - 壓縮大小：131M
 - 解壓縮後大小：441M
 - 內容：所有文件嘅path in plain text format。方便用script再process file。`sorted_urls.txt`應該有齊所有文嘅ID。
+- SHA256: `349b38548538a2677b5f823e93038f148b691ffc0e4bf6f71a9eb12a19acdac0`
 - Sample data: [samples/metadata_sample.txt](samples/metadata_sample.txt)
+
+### `collection-news-appledaily-full-articles.json.zip`
+- 壓縮大小：1.8G
+- 解壓縮後大小：5.06G
+- 內容：所有收錄文章（JSON 格式）
+- SHA256: `ff107951f91200c891a6bf88f4f9fb9c08b638e66f6ae3109073291e9eea7651`
 
 > 可以用 `shasum -a256 file_name` 去檢查文件完整性同防止比人改左野。
 
